@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Group Assignment</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+      <div class="container">
+		  <div id=branding">
+		  <img id="logo" src="logo1.jpg"
+		  </div>
+           
+<br>
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.html">Home</a></li>
+		            <li><a href="bus.html">Bus Timetable</a></li>
+		            <li><a href="train.html">Train Timetable</a></li>
+					<li><a href="fares.html">Fares & Purchase</a></li>
+		            <li><a href="plan.html">Plan Your Journey</a></li>
+		            <li><a href="contact.html">Contact Us</a></li>
+					<li><a href="staff.html">Log In</a></li>
+					<input type="text" placeholder="Search..">
+                </ul>
+				<br>
+            </nav>
+			
+			<script>
+  var currentDate = new Date(),
+      day = currentDate.getDate(),
+      month = currentDate.getMonth() + 1,
+      year = currentDate.getFullYear();
+  document.write(day + "/" + month + "/" + year)
+</script>
+<script>
+ var currentTime = new Date(),
+      hours = currentTime.getHours(),
+      minutes = currentTime.getMinutes();
+ if (minutes < 10) {
+  minutes = "0" + minutes;
+  }
+ document.write(hours + ":" + minutes)
+</script>
+      </div>
+    </header>
+	
+
+
+	<section id="showcase">
+	   <div class="container">
+	     <h1>Plan Your Journey</h1>
+		 <p>journey details</p>
+	   </div>
+	</section>
+	
+	<section id="button">
+	   <div class="container">
+	     <h1>Subscribe and Sign up</h1>
+		 <form>
+		    <div>
+		    <input type="text" placeholder="Name">
+			</div>
+			<div>
+			<input type="email" placeholder="Email">
+			</div>
+			<button type="submit" class="button1">Submit</button>
+		 </form>
+	   </div>
+	</section>
+	
+	<section id="topics">
+	   <div class="container">
+	      <div class="topic1">
+		    <img src="offer.jpg">
+		    <h3>Special Offers</h3>
+			<p>During the festive period we are happy to introduce a series 
+			of special offers available for every route. Offers begin on 
+            December 1st!</p>
+		  </div>
+	      <div class="topic1">
+		    <img src="service.jpg">
+		    <h3>Services</h3>
+			<p>There is a number of services that are available for use all
+			year round. Airport services to Belfast and Dublin are the most
+			popular although Ferry services are frequently used. Find out 
+            more about the services we have to offer.</p>
+		  </div>
+		  <div class="topic1">
+		    <img src="update.jpg">
+		    <h3>Travel Updates</h3>
+			<p>Here we update any travel news which may affect any of our 
+			routes to make sure you are informed of any delays or 
+			cancellations.</p>  
+		  </div>
+	   </div>
+	</section>
+	
+	<footer>
+	    <p>Ulster University, Copyright &copy; 2018</p>
+		
+		<img src="facebook.png" alt="facebook logo" href="facebook.com">
+        <img src="twitter.png" alt="twitter logo" href="twitter.com">
+    </footer>
+		
+</body>
+</html>

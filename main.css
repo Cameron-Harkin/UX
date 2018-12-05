@@ -1,0 +1,182 @@
+body
+{
+	font-family: Arial, Helvetica, sans-serif;
+	font-size: 15px;
+	line-height: 1.5;
+	padding: 0;
+	margin: 0;
+	background-color: #E1ECEF;
+}
+
+.container
+{
+	width: 80%;
+	margin: auto;
+	overflow: hidden;
+}
+
+header
+{
+	background-color: #FFFFFF;
+	color: #000000;
+	padding-top: 30px;
+	min-height: 70px;
+	border-bottom: #000000 5px solid;
+}
+
+header a
+{
+	color: #000000;
+	text-decoration: none;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: bold;
+}
+
+header ul 
+{
+	margin: 0;
+	padding: 0;
+}
+
+header li 
+{
+	float: center;
+	display: inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding
+{
+	float: left;
+}
+
+header #branding h1
+{
+	margin: 0;
+}
+
+header nav
+{
+	float: right;
+	margin-top: 10px;
+}
+
+header .current a
+{
+	color: #4B8491;
+	font-weight: bold;
+}
+
+header a:hover
+{
+    color: #cccccc;
+	font-weight: bold;
+}
+
+
+#showcase
+{
+	min-height: 500px;
+	background:url(rail.jpg) no-repeat;
+    background-size: cover;
+	text-align: center;
+	color: #ffffff;
+	background-attachment: fixed;
+}
+
+#showcase h1
+{
+	margin-top: 100px;
+	font-size: 55px;
+	margin-bottom: 10px;
+}
+
+#showcase p
+{
+	font-size: 20px;
+}
+
+#button
+{
+	padding: 15px;
+	color: #ffffff;
+	background-color: #7D8586;
+}
+
+#button h1
+{
+	float: left:
+}
+
+#button form
+{
+	float: left;
+	margin-top: 15px;
+}
+
+.button1
+{
+	height: 30px;
+	background-color: #000000;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+	color: #ffffff;
+}
+
+#button input[type="text"]
+{
+	padding: 4px;
+	height: 25px;
+	width: 250px;
+}
+
+
+#button input[type="email"]
+{
+	padding: 4px;
+	height: 25px;
+	width: 250px;
+}
+
+#topics
+{
+	margin-top: 20px;
+}
+
+#topics .topic1
+{
+	float: left;
+	width: 30%;
+	padding: 10px;
+	text-align: center;
+}
+
+#topics .topic1 img
+{
+	width: 280px;
+}
+
+script{
+	margin-left: auto:
+	
+
+}
+
+footer
+{
+	padding: 20px;
+	margin-top: 20px;
+	color: #000000;
+	background-color: #FFFFFF;
+	text-align: center;
+}
+
+footer img
+{
+    width: 5%;
+}
+
+
+	
