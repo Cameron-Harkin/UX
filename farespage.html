@@ -1,0 +1,201 @@
+ <!DOCTYPE html>
+<html>
+<head>
+	<title>Group Assignment</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+      <div class="container">
+		  <div id=branding">
+		  <img id="logo" src="logo1.jpg"
+		  </div>
+           
+<br>
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.html">Home</a></li>
+		            <li><a href="bus.html">Bus Timetable</a></li>
+		            <li><a href="train.html">Train Timetable</a></li>
+					<li><a href="fares.html">Fares & Purchase</a></li>
+		            <li><a href="plan.html">Plan Your Journey</a></li>
+		            <li><a href="contact.html">Contact Us</a></li>
+					<li><a href="staff.html">Log In</a></li>
+					<input type="text" placeholder="Search..">
+                </ul>
+				<br>
+            </nav>
+			
+			<script>
+  var currentDate = new Date(),
+      day = currentDate.getDate(),
+      month = currentDate.getMonth() + 1,
+      year = currentDate.getFullYear();
+  document.write(day + "/" + month + "/" + year)
+</script>
+<script>
+ var currentTime = new Date(),
+      hours = currentTime.getHours(),
+      minutes = currentTime.getMinutes();
+ if (minutes < 10) {
+  minutes = "0" + minutes;
+  }
+ document.write(hours + ":" + minutes)
+</script>
+      </div>
+    </header>
+	
+	<section id= "box3">
+		<h1> Student Discount</h1>
+		<P> Students Can Now Recieve 20% off </br>
+					All Journeys </br> 
+		Including Express Tickets </br> 
+		*T&C Apply* </P>
+		<h2> <a href="staff.html"> LOG IN NOW</a> </h2>
+		</section>
+
+	<section id= "box4">
+		<h1> Family Ticket </h1>
+		<P> Family day pass now available </br> 
+		 recieve 20% of your journey </br>
+		 Only Applicable to : </br> 
+		-2 Adults & 2 Children </br>
+		- 1 Adult & 2 Children</P>
+		<h2> <a href="staff.html"> LOG IN NOW</a> </h2>
+		
+		</section>
+
+
+
+
+		<section id= "purchase">
+			<form method ="POST" ACTION="">
+			<table >
+				<tr>
+				 <h2> PURCHASE YOUR TICKETS HERE </h2>
+  			</tr>
+    		<td>DEPARTURE FROM</td>
+   			 <td>
+     		 <input type ="text" name="departure" size="20" placeholder="eg..Foyle Street" required >
+    		</td>
+  		</tr>
+  		<tr>
+    		<td>ARRIVAL TO</td>
+    		<td><input type="text" name="arrival" size="20" placeholder="eg..Omagh Bus Centre" required>
+    		</td>
+  		</tr>
+  		<tr>
+    		<td>DEPARTURE TIME</td>
+    		<td>
+    	<select>
+        <option>0000hrs</option>
+        <option>0100hrs</option>
+        <option>0200hrs</option>
+        <option>0300hrs</option>
+        <option>0400hrs</option>
+        <option>0500hrs</option>
+        <option>0600hrs</option>
+        <option>0700hrs</option>
+        <option>0800hrs</option>
+        <option>0900hrs</option>
+        <option>1000hrs</option>
+        <option>1100hrs</option>
+        <option>1200hrs</option>
+        <option>1300hrs</option>
+        <option>1400hrs</option>
+        <option>1500hrs</option>
+        <option>1600hrs</option>
+        <option>1700hrs</option>
+        <option>1800hrs</option>
+        <option>1900hrs</option>
+        <option>2000hrs</option>
+        <option>2100hrs</option>
+        <option>2200hrs</option>
+        <option>2300hrs</option>
+		</select>
+    		</td>
+  		</tr>
+
+  		<tr>
+    		
+    		<input type="date" id="start" name="trip-start"
+       		value="2018-07-22"
+      		min="2018-01-01" max="2018-12-31">
+    		</td>
+		</tr>
+
+
+		<tr>
+    		<td>TYPE</td>
+    		<td>
+			<input type="radio" name="type" required>
+			<label> Single </label>
+			<input type="radio" name="type">
+			<label> Return</label>
+    		</td>
+  		</tr>
+
+
+  		
+  			
+		<tr>
+    		<td>CARDHOLDER</br>
+    		NAME</td>
+    		<td><input type="text" name="name" size="20" placeholder="eg..Miss Ellen Smith " required>
+    		</td>
+
+    	<tr>
+    		<td>ADDRESS</td>
+    		<td><input type="text" name="address" size="40" placeholder="eg.. 12A Cornflower Road Derry BT60 677">
+    		</td>
+			<tr>
+    		<td>CARD TYPE </td>
+    		<td>
+    		<select >
+        	<option>Visa Debit</option>
+        	<option>Credit Card</option>
+        	<option>MasterCard</option>
+        	
+    		</td>
+    		</select>
+
+
+
+		<tr>
+    		<td>CARD NUMBER</td>
+    		<td><input type="number" name="cardnum" size="20" placeholder="1782736510982736" required>
+    		</td>
+
+    	<tr>
+    		<td>SECURITY CODE </td>
+    		<td><input type="text" name="ARRIVAL" size="3" placeholder="344" required minlength="3">
+    		</td>
+    		
+
+	</TABLE>
+
+	<button> <a href="https://www.paypal.com/uk/signin"> PAYPAL</a></button>
+    	<button>SUBMIT</button> 
+		</FORM>
+	</section> 
+
+
+
+
+
+
+
+
+
+
+
+	<footer>
+	    <p>Ulster University, Copyright &copy; 2018</p>
+		
+		<img src="facebook.png" alt="facebook logo" href="facebook.com">
+        <img src="twitter.png" alt="twitter logo" href="twitter.com">
+    </footer>
+	
+</body>
+</html>
