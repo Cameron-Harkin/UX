@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Group Assignment</title>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link rel="stylesheet" href="main.css">
+</head>
+<body>
+    <header>
+      <div class="container">
+		  <div id=branding">
+		  <img id="logo" src="logo1.jpg"
+		  </div>
+           
+			<br>
+            <nav>
+                <ul>
+                    <li class="current"><a href="index.html">Home</a></li>
+		            <li><a href="bus.html">Bus Timetable</a></li>
+		            <li><a href="train.html">Train Timetable</a></li>
+					<li><a href="fares.html">Fares & Purchase</a></li>
+		            <li><a href="plan.html">Plan Your Journey</a></li>
+		            <li><a href="contact.html">Contact Us</a></li>
+					<li><a href="staff.html">Log In</a></li>
+					<input type="text" placeholder="Search..">
+                </ul>
+				<br>
+            </nav>
+			
+			<script>
+  			var currentDate = new Date(),
+     		day = currentDate.getDate(),
+     		month = currentDate.getMonth() + 1,
+     		year = currentDate.getFullYear();
+  			document.write(day + "/" + month + "/" + year)
+			</script>
+			<script>
+ 			var currentTime = new Date(),
+      		hours = currentTime.getHours(),
+      		minutes = currentTime.getMinutes();
+ 			if (minutes < 10) {
+  			minutes = "0" + minutes;
+  			}
+ 			document.write(hours + ":" + minutes)
+			</script>
+      </div>
+    </header>
+
+    <br>
+    <br>
+    <form id="register">   
+    <div>
+    	<h1>Customer Registration</h1>
+    	<label>First name:  
+    		<input type="text" placeholder="Name">
+    	</label>
+    	<br>
+    	<br>
+
+    	<label>Surname:   
+    		<input type="text" placeholder="Surname">
+		</label>
+		<br>
+		<br>
+
+		<label>Username:   
+    		<input type="text" placeholder="Username">
+		</label>
+		<br>
+		<br>
+
+		<label>Password:   
+    		<input type="text" placeholder="Password">
+		</label>
+		<br>
+		<br>
+
+		<label>Confirm Password:   
+    		<input type="text"placeholder="Password">
+		</label>
+		<br>
+		<br>
+
+
+		<label>Email Address:   
+    		<input type="Email" placeholder="Email">
+		</label>
+		<br>
+		<br>
+
+		<label>Postcode:   
+    		<input type="text" placeholder="Postcode">
+		</label>
+		<br>
+		<br>
+
+		<label>Telephone Number:   
+    		<input type="Number" placeholder="Phone Number">
+		</label>
+		<br>
+		<br>
+		<button>Submit</button></div> 
+		<div></a></p></div>
+	</form>
+<br>
+<br>
+  <footer>
+	   <p>Ulster University, Copyright &copy; 2018</p>
+	   
+	   <img src="facebook.png" alt="facebook logo" href="facebook.com">
+       <img src="twitter.png" alt="twitter logo" href="twitter.com">
+    </footer>
+		
+</body>
+</html>
