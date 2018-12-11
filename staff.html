@@ -12,7 +12,7 @@
 		  <img id="logo" src="logo1.jpg"
 		  </div>
            
-<br>
+			<br>
             <nav>
                 <ul>
                     <li class="current"><a href="index.html">Home</a></li>
@@ -28,25 +28,79 @@
             </nav>
 			
 			<script>
-  var currentDate = new Date(),
-      day = currentDate.getDate(),
-      month = currentDate.getMonth() + 1,
-      year = currentDate.getFullYear();
-  document.write(day + "/" + month + "/" + year)
-</script>
-<script>
- var currentTime = new Date(),
-      hours = currentTime.getHours(),
-      minutes = currentTime.getMinutes();
- if (minutes < 10) {
-  minutes = "0" + minutes;
-  }
- document.write(hours + ":" + minutes)
-</script>
+  			var currentDate = new Date(),
+     		day = currentDate.getDate(),
+     		month = currentDate.getMonth() + 1,
+     		year = currentDate.getFullYear();
+  			document.write(day + "/" + month + "/" + year)
+			</script>
+			<script>
+ 			var currentTime = new Date(),
+      		hours = currentTime.getHours(),
+      		minutes = currentTime.getMinutes();
+ 			if (minutes < 10) {
+  			minutes = "0" + minutes;
+  			}
+ 			document.write(hours + ":" + minutes)
+			</script>
       </div>
     </header>
+
+    <br>
+    <br>
+    <form id="Box1">   
+    <div>
+    	<h1>Customer Log In</h1>
+    	<label>Username:  
+    		<input type="text" name="UserName" placeholder="Username">
+    	</label>
+    	<br>
+    	<br>
+
+    	<label>Password:   
+    		<input type="text" name="Password" placeholder="Password">
+		</label>
+		<br>
+		<br>
+		<button>Submit</button></div> 
+		<div>
+		<p>Register <a href="customer_registration.html">here</a></p></div>
+	</form>
+
+
+<br>
+<br>
+	<form id="Box2">    
+    	<h1>Staff Log In</h1>
+    	<label>Username:  
+    		<input type="text" name="UserName" placeholder="Username">
+    	</label>
+    	<br>
+    	<br>
+
+    	<label>Password:   
+    		<input type="text" name="Password" placeholder="Password">
+		</label>
+		<br>
+		<br>
+		<button>Submit</button>
+   	<div>
+		<p>Register <a href="staff_registration.html">here</a></p>
+
+	</div>
+	</form>
+
+
+		<img id="people" src="people.png" alt="people crossing a road">
+
+		<img id="bus" src="bus.jpg">
+
+		<img id="train" src="trainstation.jpg">
 	
-    <footer>
+
+<br>
+<br>
+  <footer>
 	   <p>Ulster University, Copyright &copy; 2018</p>
 	   
 	   <img src="facebook.png" alt="facebook logo" href="facebook.com">
