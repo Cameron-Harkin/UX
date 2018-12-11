@@ -595,16 +595,18 @@ text-align: center;
 footer
 {
 	padding: 20px;
-	margin-top: 900px;
+	margin-top: 20px;
 	color: #000000;
-	background-color: #FFFFFF;
+	background-color: #ffffff;
 	text-align: center;
 }
+
 
 footer img
 {
     width: 5%;
 }
+
 
 
 	
