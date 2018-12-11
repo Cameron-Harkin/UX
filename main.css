@@ -233,24 +233,6 @@ h1{
 	box-shadow: 5px 10px 15px 7px #ffffff;
 }
 
-footer
-{
-	padding: 20px;
-	margin-top: 20px;
-	color: #000000;
-	background-color: #ffffff;
-	text-align: center;
-}
-
-
-footer img
-{
-    width: 5%;
-}
-
-
-
-
 table, th, td
 {
 	border: 1px solid black;
